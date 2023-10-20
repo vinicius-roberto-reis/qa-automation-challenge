@@ -21,14 +21,9 @@ Certifique-se de ter Node.js instalado antes de começar.
    ```bash
    cd qa-automation-challenge
 
-5. Instale o Newman globalmente (caso ainda não tenha instalado):
+3. Instale o Newman globalmente (caso ainda não tenha instalado):
    ```bash
    npm install -g newman
-
-6. Intale o repost do newman
-   ```bash
-  npm install -g newman-reporter-html
-  npm install newman-reporter-html
 
 🚀 Executando Testes Localmente
 Para executar os testes localmente, siga as etapas abaixo:
