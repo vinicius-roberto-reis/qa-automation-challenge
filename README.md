@@ -17,13 +17,15 @@ Certifique-se de ter Node.js instalado antes de começar.
    ```bash
    git clone https://github.com/vinicius-roberto-reis/qa-automation-challenge.git
 
-2. Acesse a pasta do projeto atraves do cmd
+2. Acesse a pasta do projeto:
+   ```bash
+   cd qa-automation-challenge
 
-3. Instale o Newman globalmente (caso ainda não tenha instalado):
+5. Instale o Newman globalmente (caso ainda não tenha instalado):
    ```bash
    npm install -g newman
 
-5. Intale o repost do newman
+6. Intale o repost do newman
    ```bash
   npm install -g newman-reporter-html
   npm install newman-reporter-html
