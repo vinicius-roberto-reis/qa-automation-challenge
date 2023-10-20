@@ -1,0 +1,40 @@
+name: Test Workflow
+
+on:
+  workflow_dispatch: # Evento para desencadear o workflow manualmente
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install project dependencies
+        run: npm install
+
+      - name: Install Newman
+        run: npm install -g newman
+
+      - name: Install report newman
+        run: |
+          npm install -g newman-reporter-html
+          npm install newman-reporter-html
+
+      - name: Run Postman Collection
+        run: |
+          newman run JsonPlaceholderTests.postman_collection.json -r html --reporter-html-export report.html
+
+      - name: Upload html Test Results
+        uses: actions/upload-artifact@v2
+        with:
+          name: result_tests
+          path: report.html
+
+
