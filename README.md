@@ -1,6 +1,6 @@
 # 🚀 Projeto de Teste com Newman
 
-Este é um projeto de teste automatizado usando a ferramenta Newman para testar uma API. O projeto demonstra como configurar, executar e gerar relatórios para testes de API.
+Este é um projeto de teste automatizado usando a ferramenta Newman para testar o metodo GET e POST da api: http://jsonplaceholder.typicode.com/posts
 
 ## 🛠️ Ferramentas Utilizadas
 
