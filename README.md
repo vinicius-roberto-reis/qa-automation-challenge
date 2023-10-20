@@ -25,7 +25,7 @@ Certifique-se de ter Node.js instalado antes de começar.
    ```bash
    npm install -g newman
 
-🚀 Executando Testes Localmente
+## 🚀 Executando Testes Localmente
 Para executar os testes localmente, siga as etapas abaixo:
 
 Abra um terminal na pasta do projeto.
