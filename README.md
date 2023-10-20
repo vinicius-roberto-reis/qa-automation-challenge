@@ -47,17 +47,3 @@ newman run JsonPlaceholderTests.postman_collection.json -r html --reporter-html-
 
 Após a execução, o relatório será gerado e disponível para revisão dentro da pasta newman/report.html.
 
-## 🚀 Executando Testes com o GitHub Actions (Manual)
-Este projeto também inclui um fluxo de trabalho de integração contínua (CI) usando GitHub Actions. No entanto, este fluxo de trabalho é manual, o que significa que você deve acioná-lo explicitamente quando desejar executar os testes. Siga os passos abaixo:
-
-Clique na guia "Actions" na parte superior deste projeto.
-
-No lado esquerdo, você verá "Workflows" disponíveis. Clique em "Execution Automation Workflow" para abrir o fluxo de trabalho.
-
-Clique no botão "Run workflow" para iniciar a execução dos testes.
-
-Aguarde até que o GitHub Actions execute os testes. Os resultados serão disponibilizados no final da execução.
-
-## 📊 Gerando Relatórios
-Os relatórios dos testes serão gerados em formato HTML no proprio job que foi executado. Você pode abrir o arquivo HTML em qualquer navegador para visualizar os resultados dos testes.
-   
