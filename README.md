@@ -36,7 +36,8 @@ Abra um terminal na pasta do projeto.
 Execute o seguinte comando para executar os testes:
 
  ```bash
-newman run JsonPlaceholderTests.postman_collection.json -r html --reporter-html-export report.html```
+newman run JsonPlaceholderTests.postman_collection.json -r html --reporter-html-export report.html
+```
 
 Após a execução, o relatório será gerado e disponível para revisão.
 
