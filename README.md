@@ -20,9 +20,11 @@ Certifique-se de ter Node.js instalado antes de começar.
 2. Acesse a pasta do projeto atraves do cmd
 
 3. Instale o Newman globalmente (caso ainda não tenha instalado):
+   ```bash
    npm install -g newman
 
-4. Intale o repost do newman
+5. Intale o repost do newman
+   ```bash
   npm install -g newman-reporter-html
   npm install newman-reporter-html
 
@@ -33,9 +35,9 @@ Abra um terminal na pasta do projeto.
 
 Execute o seguinte comando para executar os testes:
 
-bash
-Copy code
+ ```bash
 newman run JsonPlaceholderTests.postman_collection.json -r html --reporter-html-export nome-do-seu-relatorio.html
+
 Substitua nome-do-seu-relatorio.html pelo nome desejado para o arquivo de relatório.
 
 Após a execução, o relatório será gerado e disponível para revisão.
