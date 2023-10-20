@@ -16,14 +16,17 @@ Certifique-se de ter Node.js instalado antes de começar.
 
    ```bash
    git clone https://github.com/vinicius-roberto-reis/qa-automation-challenge.git
+   ```
 
 2. Acesse a pasta do projeto:
    ```bash
    cd qa-automation-challenge
+   ```
 
 3. Instale o Newman globalmente (caso ainda não tenha instalado):
    ```bash
    npm install -g newman
+   ```
 
 ## 🚀 Executando Testes Localmente
 Para executar os testes localmente, siga as etapas abaixo:
@@ -33,7 +36,7 @@ Abra um terminal na pasta do projeto.
 Execute o seguinte comando para executar os testes:
 
  ```bash
-newman run JsonPlaceholderTests.postman_collection.json -r html --reporter-html-export report.html
+newman run JsonPlaceholderTests.postman_collection.json -r html --reporter-html-export report.html```
 
 Após a execução, o relatório será gerado e disponível para revisão.
 
