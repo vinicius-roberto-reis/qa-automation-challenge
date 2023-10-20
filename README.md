@@ -50,9 +50,7 @@ Após a execução, o relatório será gerado e disponível para revisão dentro
 ## 🚀 Executando Testes com o GitHub Actions (Manual)
 Este projeto também inclui um fluxo de trabalho de integração contínua (CI) usando GitHub Actions. No entanto, este fluxo de trabalho é manual, o que significa que você deve acioná-lo explicitamente quando desejar executar os testes. Siga os passos abaixo:
 
-Abra o GitHub e acesse o seu repositório.
-
-No repositório, clique na guia "Actions" na parte superior.
+Clique na guia "Actions" na parte superior deste projeto.
 
 No lado esquerdo, você verá "Workflows" disponíveis. Clique em "Execution Automation Workflow" para abrir o fluxo de trabalho.
 
