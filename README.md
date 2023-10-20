@@ -23,10 +23,16 @@ Certifique-se de ter Node.js instalado antes de começar.
    cd qa-automation-challenge
    ```
 
-3. Instale o Newman globalmente (caso ainda não tenha instalado):
+3. Instale as dependências do relatorio html:
    ```bash
-   npm install -g newman
+   npm install -g newman-reporter-html
+   npm install newman-reporter-html
    ```
+
+3. Instale o Newman globalmente (caso ainda não tenha instalado):
+```bash
+npm install -g newman
+```
 
 ## 🚀 Executando Testes Localmente
 Para executar os testes localmente, siga as etapas abaixo:
@@ -39,7 +45,7 @@ Execute o seguinte comando para executar os testes:
 newman run JsonPlaceholderTests.postman_collection.json -r html --reporter-html-export report.html
 ```
 
-Após a execução, o relatório será gerado e disponível para revisão.
+Após a execução, o relatório será gerado e disponível para revisão dentro da pasta newman/report.html.
 
 ## 🚀 Executando Testes com o GitHub Actions (Manual)
 Este projeto também inclui um fluxo de trabalho de integração contínua (CI) usando GitHub Actions. No entanto, este fluxo de trabalho é manual, o que significa que você deve acioná-lo explicitamente quando desejar executar os testes. Siga os passos abaixo:
